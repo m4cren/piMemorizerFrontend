@@ -43,7 +43,7 @@ const Game = ({
         setNumber(e.target.value);
     };
     return (
-        <div className="flex flex-col items-center justify-center h-screen backdrop-blur-[5px] space-y-10">
+        <div className="flex flex-col items-center justify-center h-screen backdrop-blur-[5px] space-y-10 bg-black/35">
             <div className="flex justify-center items-center bg-black/50 w-full p-2 fixed z-[-10] top-0">
                 <h1 className="text-white font-mono  break-words max-w-full text-[0.6rem] phone:text-[0.8rem]">
                     3.{answer.map((number) => number)}
