@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-    @apply bg-[url('images/bg_phone.gif')] bg-no-repeat bg-center bg-cover bg-fixed sm:bg-[url('images/bg_desktop.gif')];
+    @apply bg-[url('/images/bg_phone.gif')] bg-no-repeat bg-center bg-cover bg-fixed sm:bg-[url('/images/bg_desktop.gif')];
 }
 
 @theme {
