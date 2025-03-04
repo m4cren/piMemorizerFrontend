@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+    @apply bg-[url('images/bg_phone.gif')] bg-no-repeat bg-center bg-cover bg-fixed sm:bg-[url('images/bg_desktop.gif')];
+}
+
+@theme {
+    --breakpoint-phone: 400px;
+    --breakpoint-tablet: 600px;
+    --breakpoint-desktop: 1000px;
+}
+
+@utility input-row {
+    @apply flex flex-row items-center justify-center gap-4 phone:gap-6;
+}
+
+@utility input-btn {
+    @apply text-2xl text-white font-mono font-bold w-18 h-18 phone:w-25 phone:h-25 flex items-center justify-center rounded-2xl shadow-[_-2px_2px_2px_rgba(255,255,255,0.7)];
+}
